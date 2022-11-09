@@ -15,7 +15,7 @@ const EditProfile = () => {
       email: e.target.email.value
     }
     try {
-      await axios.put('/api/users/me', change);
+      await axios.put('https://thang-todo.herokuapp.com/api/users/me', change);
       toast.success("Your Profile Change")
       navigate('/')
     } catch {

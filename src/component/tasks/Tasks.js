@@ -20,7 +20,7 @@ const Tasks = () => {
   const getTasks = async () =>{
 
     try{
-      const {data} = await axios.get('/api/tasks/mytask')
+      const {data} = await axios.get('https://thang-todo.herokuapp.com/api/tasks/mytask')
       setTasks(data)
     }catch(err){
       console.log(err)
@@ -41,7 +41,7 @@ const hanleAddTodo = async (e) => {
   } 
   console.log(newTask)
   try{
-    await axios.post('/api/tasks/', newToDo);
+    await axios.post('https://thang-todo.herokuapp.com/api/tasks/', newToDo);
     setNewTask(newToDo);
     toast.success("Task adding completed")
     
@@ -59,7 +59,7 @@ const hanleAddTodo = async (e) => {
 }*/
 const handleDeleteTask = async (taskId) => {
   try{
-    await axios.delete(`/api/tasks/${taskId}`);
+    await axios.delete(`https://thang-todo.herokuapp.com/api/tasks/${taskId}`);
     // setDeleteTask(!deleteTask)
     setTasks(tasks.filter((task) => task._id !== taskId))
     toast.success("task deleted")
@@ -77,7 +77,7 @@ const handleEditTask = async (e) => {
       title: e.target.newTask.value,
       completed:false
     }
-    await axios.put(`/api/tasks/edit/${editInfo.id}`, editValue)
+    await axios.put(`https://thang-todo.herokuapp.com/api/tasks/edit/${editInfo.id}`, editValue)
     toast.success("Update task content completed")
     setToggle(!toggle)
   } catch(err) {

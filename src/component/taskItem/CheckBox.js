@@ -9,7 +9,7 @@ const CheckBox = ({ task, handleDeleteTask }) => {
 
 	const handleChange = async () => {
 		try {
-			await axios.put(`/api/tasks/${task._id}`, {
+			await axios.put(`https://thang-todo.herokuapp.com/api/tasks/${task._id}`, {
 				title:task.title,completed: !checked,
 			});
 			setChecked(!checked);

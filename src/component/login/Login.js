@@ -16,7 +16,7 @@ const Login = ({ setToggle }) => {
 		}
 		console.log(user)
 		try{
-			await axios.post('/api/authen/login',user)
+			await axios.post('https://thang-todo.herokuapp.com/api/authen/login',user)
 			navigate('/');			
 		}catch(err){
 			toast.error("Login Fail")
