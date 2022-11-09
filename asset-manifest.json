@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/thang-todo/static/css/main.b1467d34.css",
-    "main.js": "/thang-todo/static/js/main.12aae4ad.js",
+    "main.js": "/thang-todo/static/js/main.22d30581.js",
     "static/js/787.cda612ba.chunk.js": "/thang-todo/static/js/787.cda612ba.chunk.js",
     "index.html": "/thang-todo/index.html",
     "main.b1467d34.css.map": "/thang-todo/static/css/main.b1467d34.css.map",
-    "main.12aae4ad.js.map": "/thang-todo/static/js/main.12aae4ad.js.map",
+    "main.22d30581.js.map": "/thang-todo/static/js/main.22d30581.js.map",
     "787.cda612ba.chunk.js.map": "/thang-todo/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1467d34.css",
-    "static/js/main.12aae4ad.js"
+    "static/js/main.22d30581.js"
   ]
 }
