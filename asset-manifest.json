@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/steventran1983/thang-todo/static/css/main.b1467d34.css",
-    "main.js": "/steventran1983/thang-todo/static/js/main.dfa0a211.js",
-    "static/js/787.cda612ba.chunk.js": "/steventran1983/thang-todo/static/js/787.cda612ba.chunk.js",
-    "index.html": "/steventran1983/thang-todo/index.html",
-    "main.b1467d34.css.map": "/steventran1983/thang-todo/static/css/main.b1467d34.css.map",
-    "main.dfa0a211.js.map": "/steventran1983/thang-todo/static/js/main.dfa0a211.js.map",
-    "787.cda612ba.chunk.js.map": "/steventran1983/thang-todo/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/thang-todo/static/css/main.b1467d34.css",
+    "main.js": "/thang-todo/static/js/main.12aae4ad.js",
+    "static/js/787.cda612ba.chunk.js": "/thang-todo/static/js/787.cda612ba.chunk.js",
+    "index.html": "/thang-todo/index.html",
+    "main.b1467d34.css.map": "/thang-todo/static/css/main.b1467d34.css.map",
+    "main.12aae4ad.js.map": "/thang-todo/static/js/main.12aae4ad.js.map",
+    "787.cda612ba.chunk.js.map": "/thang-todo/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1467d34.css",
-    "static/js/main.dfa0a211.js"
+    "static/js/main.12aae4ad.js"
   ]
 }
