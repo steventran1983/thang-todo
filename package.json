@@ -1,7 +1,7 @@
 {
+  "homepage": "https://steventran1983.github.io/thang-todo/",
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://steventran1983.github.io/thang-todo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
